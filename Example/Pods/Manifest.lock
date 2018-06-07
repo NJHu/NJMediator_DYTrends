@@ -1,0 +1,16 @@
+PODS:
+  - NJMediator_DYTrends (0.1.0)
+
+DEPENDENCIES:
+  - NJMediator_DYTrends (from `../`)
+
+EXTERNAL SOURCES:
+  NJMediator_DYTrends:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NJMediator_DYTrends: 8842e3a2a81113724242940f5fc084cb3aa5c981
+
+PODFILE CHECKSUM: 5ba7ad8b5f2b119c5bc4461250b85a2e9144df12
+
+COCOAPODS: 1.5.3

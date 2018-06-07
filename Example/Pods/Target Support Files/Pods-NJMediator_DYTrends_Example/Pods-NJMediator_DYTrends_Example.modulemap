@@ -1,0 +1,6 @@
+framework module Pods_NJMediator_DYTrends_Example {
+  umbrella header "Pods-NJMediator_DYTrends_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
