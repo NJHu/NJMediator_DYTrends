@@ -1,3 +1,7 @@
+
+source 'https://github.com/CocoaPods/Specs.git' # 公有源
+source 'https://github.com/NJHu/NJSpecs.git' # NJ 私有源
+
 use_frameworks!
 
 target 'NJMediator_DYTrends_Example' do

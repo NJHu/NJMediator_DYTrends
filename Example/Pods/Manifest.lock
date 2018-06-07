@@ -1,16 +1,42 @@
 PODS:
-  - NJMediator_DYTrends (0.1.0)
+  - Alamofire (4.7.2)
+  - Masonry (1.1.0)
+  - MJRefresh (3.1.15.3)
+  - NJKit (1.0.6):
+    - Alamofire
+    - Masonry
+    - MJRefresh
+    - SDWebImage
+  - NJMediator_DYTrends (0.1.0):
+    - NJKit
+  - SDWebImage (4.4.0):
+    - SDWebImage/Core (= 4.4.0)
+  - SDWebImage/Core (4.4.0)
 
 DEPENDENCIES:
   - NJMediator_DYTrends (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Masonry
+    - MJRefresh
+    - SDWebImage
+  https://github.com/NJHu/NJSpecs.git:
+    - NJKit
 
 EXTERNAL SOURCES:
   NJMediator_DYTrends:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NJMediator_DYTrends: 8842e3a2a81113724242940f5fc084cb3aa5c981
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  NJKit: 2f6b07a9435e26aac038f80cd355c8d9567ebde5
+  NJMediator_DYTrends: d6526ed8fb98814e20184e6f07951d53e1f5e14a
+  SDWebImage: b534502786e43dde36dfcaee89356fe6df30e203
 
-PODFILE CHECKSUM: 5ba7ad8b5f2b119c5bc4461250b85a2e9144df12
+PODFILE CHECKSUM: e8f0f69ecc8ff8f0f558879a211f553cdd782d3c
 
 COCOAPODS: 1.5.3

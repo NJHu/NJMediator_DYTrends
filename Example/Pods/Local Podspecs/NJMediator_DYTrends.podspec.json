@@ -1,8 +1,8 @@
 {
   "name": "NJMediator_DYTrends",
   "version": "0.1.0",
-  "summary": "A short description of NJMediator_DYTrends.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "NJMediator_DYTrends, NJMediator_DYTrends",
+  "description": "NJMediator_DYTrends, NJMediator_DYTrends, NJMediator_DYTrends, NJMediator_DYTrends, NJMediator_DYTrends",
   "homepage": "https://github.com/njhu/NJMediator_DYTrends",
   "license": {
     "type": "MIT",
@@ -13,10 +13,15 @@
   },
   "source": {
     "git": "https://github.com/njhu/NJMediator_DYTrends.git",
-    "tag": "0.1.0"
+    "branch": "master"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.3"
   },
-  "source_files": "NJMediator_DYTrends/Classes/**/*"
+  "source_files": "NJMediator_DYTrends/Classes/**/*",
+  "dependencies": {
+    "NJKit": [
+
+    ]
+  }
 }
