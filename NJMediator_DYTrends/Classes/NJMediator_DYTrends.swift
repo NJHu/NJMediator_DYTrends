@@ -1,5 +1,5 @@
 
-import NJKit
+import NJMediator
 
 fileprivate let kMediator_Target_NameSpace = "DYTrends"
 
