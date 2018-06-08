@@ -1,6 +1,0 @@
-framework module NJMediator_DYTrends {
-  umbrella header "NJMediator_DYTrends-umbrella.h"
-
-  export *
-  module * { export * }
-}
