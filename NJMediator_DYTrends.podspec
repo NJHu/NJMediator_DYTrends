@@ -21,9 +21,9 @@ NJMediator_DYTrends, NJMediator_DYTrends, NJMediator_DYTrends, NJMediator_DYTren
 
   s.source_files = 'NJMediator_DYTrends/Classes/**/*'
   
-   s.resource_bundles = {
-     'NJMediator_DYTrends' => ['NJMediator_DYTrends/Assets/**/*.{xcassets,plist,webp}']
-   }
+   #s.resource_bundles = {
+   #  'NJMediator_DYTrends' => ['NJMediator_DYTrends/Assets/**/*.{xcassets,plist,webp}']
+   #}
 
   s.dependency 'NJKit'
 end
