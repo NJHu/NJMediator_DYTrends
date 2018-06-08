@@ -1,18 +1,18 @@
 
 import NJKit
 
+fileprivate let kMediator_Target_NameSpace = "DYTrends"
+
+fileprivate let kMediator_Target_Trends = "Trends"
+
+fileprivate let kMediator_Action_NativeFetchTrendsMainViewController = "mainViewControllerWithParams:"
+
 extension NJMediator {
-    
     //        (lldb) po #selector(nj_backBtnClick(btn:))
     //        nj_backBtnClickWithBtn:
     public func Mediator_DYTrends_MainController() -> UIViewController? {
-        let nameSpace = "DYTrends"
-        let target = "Trends"
-        let action = "mainViewControllerWithParams:"
-        
-        
 
-        let result = self.perform(nameSpace: nameSpace, target: target, action: action, params: nil, shouldCacheTarget: true)
+        let result = self.perform(nameSpace: kMediator_Target_NameSpace, target: kMediator_Target_Trends, action: kMediator_Action_NativeFetchTrendsMainViewController, params: nil, shouldCacheTarget: true)
 
         return result as? UIViewController
         
